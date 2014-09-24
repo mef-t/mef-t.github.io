@@ -180,7 +180,7 @@ $(document).ready(function() {
 		// Включаем назначение ролей
 		$('#btnSpreadRoles').attr("disabled","");
 		// Убираем кнопки дня и ночи
-		$('#dBtnRounds').html("&nbsp;");
+		$('#dBtnRounds').html("");
 		// Включаем управление игроками
 		$('#dNums').find(':button').attr("disabled","");
 		// Включаем снова возможность начать игру
