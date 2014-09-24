@@ -38,7 +38,7 @@ $(document).ready(function() {
 	$select=$select+'</select>';
 	// Названия кнопок и отметок в протоколе
 	$arBtnTitles=Array();
-	$arBtnTitles[1]="☓";// для убийства
+	$arBtnTitles[1]="X";// для убийства
 	$arBtnTitles[2]="В";// для убийства
 	$arBtnTitles[3]="✚";// для лечения
 	$arBtnTitles[4]="✍";// для проверки комиссаром
