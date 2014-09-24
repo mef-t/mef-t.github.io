@@ -122,7 +122,8 @@
 	border-right:1px dotted #000;
 }
 .roundNight span input{
-	width: auto;
+	width:auto;
+	float:left;
 }
 .btnSelected{
 	font-weight:bold;
@@ -141,6 +142,15 @@
 	/*display:inline;*/
 }
 #dGameBtns{}
+#dGameBtns input{
+	height:38px;
+}
+#btnGamerAdd{
+	width:38px;
+}
+#btnSpreadRoles{
+	width:123px;
+}
 #dNums, #dNames, #dRoles, #dBtnRounds, .dRounds{
 	float:left;
 	height:auto;
@@ -157,7 +167,7 @@
 }
 #dNames{
 	width:auto;
-	min-width:50px;
+	min-width:100px;
 	text-align:left;
 	/*background:#aff;*/
 }
@@ -184,9 +194,6 @@
 #btnNight, #btnDay, #btnClear{
     height: 38px;
     width: 75px;
-}
-#btnNight{
-    margin-left: -4px;
 }
 #btnClear{
     width: auto;
