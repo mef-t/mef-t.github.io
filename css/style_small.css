@@ -1,0 +1,196 @@
+body{
+	font-family:Verdana,Arial;
+	font-size:12px;
+}
+::-moz-focus-inner{
+	padding:0;
+	border:0;
+}
+#dNames input, #dRoles select{
+	outline:none;
+	border:0;
+	height:100%;
+	width:100%;
+}
+#tabs{
+	overflow: hidden;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#tabs li{
+	float: left;
+	margin: 0 .5em 0 0;
+}
+
+#tabs a{
+	position: relative;
+	background: #ddd;
+	background-image: linear-gradient(to bottom, #fff, #ddd);
+	padding:4px 10px;
+	float: left;
+	text-decoration: none;
+	color: #444;
+	text-shadow: 0 1px 0 rgba(255,255,255,.8);
+	border-radius: 5px 0 0 0;
+	box-shadow: 0 2px 2px rgba(0,0,0,.4);
+}
+
+#tabs a:hover,
+#tabs a:hover::after,
+#tabs a:focus,
+#tabs a:focus::after{
+	background: #fff;
+}
+
+#tabs a:focus{
+	outline: 0;
+}
+
+#tabs a::after{
+	content:'';
+	position:absolute;
+	z-index: 1;
+	top: 0;
+	right: -.5em;
+	bottom: 0;
+	width: 1em;
+	background: #ddd;
+	background-image: linear-gradient(to bottom, #fff, #ddd);
+	box-shadow: 2px 2px 2px rgba(0,0,0,.4);
+	transform: skew(10deg);
+	border-radius: 0 5px 0 0;
+}
+
+#tabs #current a,
+#tabs #current a::after{
+	background: #fff;
+	z-index: 3;
+}
+
+#content
+{
+	background: #fff;
+	padding-top:10px;
+	height: 220px;
+	position: relative;
+	z-index: 2;
+	border-radius: 0 5px 5px 5px;
+	box-shadow: 0 -2px 3px -2px rgba(0, 0, 0, .5);
+}
+
+.left{
+	float:left;
+}
+.clear{
+	clear:both;
+}
+.sHeader{
+	text-align:center;
+	background:#9c9;
+	border-top:1px solid #000;
+}
+.btnsmall{
+	width:18px;
+	height:50%;
+	font-size:8px;
+	padding:0;
+}
+.sDigit{
+	width:20px;
+	text-align:center;
+	/*background:#ffa;*/
+}
+.sDigit, .sBtn{
+	float:left;
+}
+.sBtn{
+	width:20px;
+	/*background:#afa;*/
+	margin-right:5px;
+}
+.sBtn:nth-child(3){
+	width:18px;
+}
+.sBtn:nth-child(2) input{
+	padding:0 1px;
+	height:100%;
+	width:25px;
+}
+.margintop20{
+	padding-top:20px;
+}
+.roundDay span{
+	border-right:1px solid #000;
+}
+.roundNight span{
+	border-right:1px dotted #000;
+}
+.roundNight span input, .roundDay span input{
+	width:auto;
+	float:left;
+	height:100%;
+	margin:0;
+	font-size:20px;
+	padding:0 3px;
+}
+.btnSelected{
+	font-weight:bold;
+	color:#faa;
+}
+.gamerDie {
+	/*text-decoration:line-through;*/
+	background:#ccc !important;
+}
+.roleMaff{
+	background:#fce4d6;
+}
+#cover{
+	/*background:#faa;*/
+	height:30px;
+}
+#dGameBtns{}
+#dNums, #dNames, #dRoles, #dBtnRounds, .dRounds{
+	float:left;
+	height:auto;
+	border-right:1px solid #000;
+}
+.dRounds{
+	border:none;
+}
+#dNums{
+	width:70px;
+	/*background:#afa;*/
+	border-left:1px solid #000;
+}
+#dNames{
+	width:auto;
+	min-width:50px;
+	text-align:right;
+	/*background:#aff;*/
+}
+#dNames span{
+	padding:0 3px;
+}
+#dRoles{
+	width:120px;
+	/*background:#faf;*/
+}
+#dBtnRounds{
+	width:150px;
+	/*background:#afa;*/
+	border:none;
+}
+#dInfo{
+}
+#dInfoSigns{
+	margin-bottom:20px;
+}
+span{
+	/*background:#ffa;*/
+	display:block;
+	height:25px;
+	border-bottom:1px solid #000;
+}
